@@ -13,7 +13,7 @@ if(arr[i]==code[i]){
 f*=true;
 }else{f*=0;}
 
-    
+
 }
 if(f==true){
 arr=[];
