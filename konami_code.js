@@ -6,7 +6,7 @@ let  num=0;
   // Write your JavaScript code inside the init() function
 addEventListener("keydown",function(e){
 //  arr.push(event.keyCode);
-  if(arr[num]==code[num]){
+  if(event.keyCode==code[num]){
 
 num++;
 }else{num=0;}
