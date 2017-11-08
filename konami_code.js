@@ -5,8 +5,9 @@ function init() {
 let  num=0;
   // Write your JavaScript code inside the init() function
 addEventListener("keydown",function(e){
+  const key = parseInt(e.detail || e.which);
 //  arr.push(event.keyCode);
-  if(e.keyCode==code[num]){
+  if(key==code[num]){
 
 num++;
 }else{num=0;}
@@ -16,5 +17,5 @@ num++;
     alert("Hurray!");
   }
 
-});
+},false);
 }
