@@ -4,18 +4,22 @@ function init() {
   let arr=[];
   // Write your JavaScript code inside the init() function
 addEventListener("keydown",function(e){
-arr.push(event.keyCode);
-if(code==arr){
-    alert("Hurray!");
+  arr.push(event.keyCode);
+   if(code.length===arr.length){
+    //alert("Hurray!");
+   //console.log('yes');
+for(var i=0;i<arr.length;i++){
+if(arr[i]==code[i]){
+f*=true;
+}else{f*=0;}
+
+    
 }
-  
+if(f==true){
+arr=[];
+alert("Hurray!");
+	}
+}
+
 });
 }
-addEventListener("keydown", function(event) {
-   if (event.keyCode == 86)
-     document.body.style.background = "violet";
- });
- addEventListener("keyup", function(event) {
-   if (event.keyCode == 86)
-     document.body.style.background = "";
- });
