@@ -18,8 +18,8 @@ f*=true;
 if(f==true){
 arr.lengh=0;
 alert("Hurray!");
-function init();
-	}else{function init();}
+
+	}else{arr.lengh=0;}
 }
 
 });
