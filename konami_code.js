@@ -16,9 +16,10 @@ f*=true;
 
 }
 if(f==true){
-arr=[];
+arr.lengh=0;
 alert("Hurray!");
-	}
+function init();
+	}else{function init();}
 }
 
 });
