@@ -7,7 +7,7 @@ let  num=0;
 addEventListener("keydown",function(e){
 //  arr.push(event.keyCode);
   if(arr[num]==code[num]){
-  
+
 num++;
 }else{num=0;}
 
